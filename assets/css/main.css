@@ -2882,8 +2882,10 @@
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					/* width: 2em;
+					height: 2em; */
+					width: 60%;
+					height: 60%''
 				}
 
 		#header nav {
@@ -3195,7 +3197,7 @@
 /* Footer */
 
 	#footer {
-		padding: 5em 0 6em 0 ;
+		/* padding: 5em 0 6em 0 ; */
 		background-color: #f6f6f6;
 	}
 
