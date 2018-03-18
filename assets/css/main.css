@@ -2603,8 +2603,8 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			width: calc(20% - 2.5em);
+			margin: 2.5em 0 0 8em;
 		}
 
 			.tiles article > .image {
@@ -2682,10 +2682,10 @@
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				-moz-justify-content: center;
+				/* -moz-justify-content: center;
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
-				justify-content: center;
+				justify-content: center; */
 				-moz-transition: background-color 0.5s ease, -moz-transform 0.5s ease;
 				-webkit-transition: background-color 0.5s ease, -webkit-transform 0.5s ease;
 				-ms-transition: background-color 0.5s ease, -ms-transform 0.5s ease;
@@ -2731,6 +2731,10 @@
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
+
+			.tiles article.style0 > .image:before {
+				background-color: rgba(0, 0, 0, 0);
+			}
 
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
