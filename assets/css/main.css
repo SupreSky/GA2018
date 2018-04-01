@@ -1907,6 +1907,36 @@
 				background-color: rgba(242, 132, 158, 0.1);
 			}
 
+			/* EDITed */
+
+			.icon.style3 {
+				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+				background-color: #3b5998;
+				border: solid 1px #c9c9c9;
+				border-radius: 4px;
+				width: 2.65em;
+				height: 2.65em;
+				display: inline-block;
+				text-align: center;
+				line-height: 2.65em;
+				color: inherit;
+			}
+
+				.icon.style3:before {
+					font-size: 1.1em;
+				}
+
+				.icon.style3:hover {
+					color: #ffffff !important;
+				}
+
+				.icon.style3:active {
+					background-color: rgba(242, 132, 158, 0.1);
+				}
+
 /* List */
 
 	ol {
@@ -2603,8 +2633,8 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(20% - 2.5em);
-			margin: 2.5em 0 0 8em;
+			width: calc(33.33333% - 2.5em);
+			margin: 2.5em 0 0 2.5em;
 		}
 
 			.tiles article > .image {
@@ -2682,10 +2712,10 @@
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				/* -moz-justify-content: center;
+				-moz-justify-content: center;
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
-				justify-content: center; */
+				justify-content: center;
 				-moz-transition: background-color 0.5s ease, -moz-transform 0.5s ease;
 				-webkit-transition: background-color 0.5s ease, -webkit-transform 0.5s ease;
 				-ms-transition: background-color 0.5s ease, -ms-transform 0.5s ease;
@@ -2713,7 +2743,10 @@
 				}
 
 				.tiles article > a h2 {
-					margin: 0;
+					/* EDITed */
+					margin: 70% 0 0 0;
+					font-size: 1.2em;
+					letter-spacing: 0.1em;
 				}
 
 				.tiles article > a .content {
@@ -2732,32 +2765,35 @@
 						margin-bottom: 0;
 					}
 
-			.tiles article.style0 > .image:before {
-				background-color: rgba(0, 0, 0, 0);
-			}
-
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				/* background-color: #f2849e; */
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.25) 75%);
+				/* EDITed */
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				/* background-color: #7ecaf6; */
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				/* background-color: #7bd0c1; */
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				/* background-color: #c75b9b; */
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				/* background-color: #ae85ca; */
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				/* background-color: #8499e7; */
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2768,8 +2804,9 @@
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
+					/* EDITed */
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -3201,8 +3238,9 @@
 /* Footer */
 
 	#footer {
-		/* padding: 5em 0 6em 0 ; */
-		background-color: #f6f6f6;
+		/* EDITed */
+		/* padding: 5em 0 6em 0 ;
+		background-color: #f6f6f6; */
 	}
 
 		#footer > .inner {
