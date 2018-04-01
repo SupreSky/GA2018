@@ -2767,33 +2767,33 @@
 
 			.tiles article.style1 > .image:before {
 				/* background-color: #f2849e; */
-				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.25) 75%);
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.5) 75%);
 				/* EDITed */
 			}
 
 			.tiles article.style2 > .image:before {
 				/* background-color: #7ecaf6; */
-				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.5) 75%);
 			}
 
 			.tiles article.style3 > .image:before {
 				/* background-color: #7bd0c1; */
-				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.5) 75%);
 			}
 
 			.tiles article.style4 > .image:before {
 				/* background-color: #c75b9b; */
-				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.5) 75%);
 			}
 
 			.tiles article.style5 > .image:before {
 				/* background-color: #ae85ca; */
-				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.5) 75%);
 			}
 
 			.tiles article.style6 > .image:before {
 				/* background-color: #8499e7; */
-				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 15) 75%);
+				background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(69, 69, 69, 0.5) 75%);
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
